@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rocket Design - Mobile</title>
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <link rel="shortcut icon" type="image/png" href="img/icons/favicon.png" />
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <div class="banner-wrap">
+            <header>
+                <div class="header-inner">
+                    <a href="#" class="logo"></a>
+                    <nav>
+                        <a href="#" class="menu-icon"></a>
+                        <ul>
+                            <li><a href="#" class="current">Home</a></li>
+                            <li><a href="#">Skills</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        <!--- Slider Start -->
+            <script src="js/jquery.bxslider.min.js"></script>
+            <section class="slider-wrap">
+                <div class="slider">
+                    <ul class="slider1">
+                        <li><img src="img/pics/desktop-1.png" alt=""></li>
+                        <li><img src="img/pics/desktop-2.png" alt=""></li>
+                        <li><img src="img/pics/desktop-3.png" alt=""></li>
+                    </ul>
+                </div>
+            </section>
+            <!--For Image Slider-->
+            <script type="text/javascript">
+            $('.slider1').bxSlider({
+                mode: 'fade',
+                captions: false,
+                auto: true,
+                pager: false,
+
+            });
+            $('.slider2').bxSlider({
+                pager: false,
+                captions: true,
+                maxSlides: 3,
+                minSlides: 1,
+                slideWidth: 230,
+                slideMargin: 10
+            });
+            $('.slider3').bxSlider({
+                mode: 'fade',
+                captions: false,
+                auto: true,
+                pager: false,
+                controls: false,
+            });
+            </script>
+            <!--- Slider End -->
+        <!--  -->
+        <section class="block-2">
+            <div class="box-3">
+                <div class="icon-wrap">
+                    <i class="fa fa-desktop"></i>
+                </div>
+                <h3>Web Design</h3>
+            </div>
+            <div class="box-3">
+                <div class="icon-wrap">
+                    <i class="fa fa-pencil-square-o"></i>
+                </div>
+                <h3>Digital Graphics</h3>
+            </div>
+            <div class="box-3">
+                <div class="icon-wrap">
+                    <i class="fa fa-file-code-o"></i>
+                </div>
+                <h3>Development</h3>
+            </div>
+        </section>
+        <!--  -->
+        <section class="block-3">
+            <div class="left-col">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore nulla dolorum explicabo quisquam illo reiciendis. Recusandae eos ipsum, id rem dignissimos perspiciatis aspernatur quod blanditiis consequatur, voluptatem doloribus modi illum.</p>
+            </div>
+            <div class="sidebar">
+                <img src="img/pics/computer-white.png" alt="">
+            </div>
+        </section>
+        <!--  -->
+        <section class="block-4">
+            <div class="box-3-padding">
+                <h3>Our Skills one</h3>
+                <img src="img/pics/computer-gal.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus numquam totam officiis harum minus asperiores!</p>
+            </div>
+            <div class="box-3-padding">
+                <h3>Our Skills two</h3>
+                <img src="img/pics/900-644.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus numquam totam officiis harum minus asperiores!</p>
+            </div>
+            <div class="box-3-padding">
+                <h3>Our Skills three</h3>
+                <img src="img/pics/computer-guy.png" alt="">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus numquam totam officiis harum minus asperiores!</p>
+            </div>
+        </section>
+        <!--  -->
+    </main>
+    <footer>
+        <div class="footer-wrap">
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <ul>
+                        <li><a href="mailto:@gmail.com"><i class="fa fa-envelope"></i></a></li>
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+        </div>
+    </footer>
+    <footer class="second">
+        <p>&copy; Rocket Design</p>
+    </footer>
+</body>
+
+</html>
